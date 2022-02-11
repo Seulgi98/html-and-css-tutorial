@@ -6,6 +6,9 @@
     line-height: 38px;
     margin: 20px 0 0 20px; /*시계방향 : 위 오른쪽 아래 왼쪽*/
 }
+.title_name{
+    font-weight: 700;
+}
 
 .time {
     margin: 10px 0 0 854px;
@@ -20,6 +23,7 @@
 
 .current_day {
     font-size: 30px;
+    font-weight: 600;
     position: relative;
     line-height: 10px;
     margin: 20px 0px 0 20px;
@@ -41,15 +45,17 @@
     padding: 12px 30px 12px 30px;
     margin: 0 10px;
     color : #fff;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px;
     border: none;
 }
 .end_btn {
     background-color: #00ee8f;
     padding: 12px 30px 12px 30px;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px;
     border: none;
 }
 
@@ -66,6 +72,7 @@
     position: absolute;
     top: 15%;
     left : 31%;
+    border-radius: 12px;
     box-shadow: 0 20px 30px grey ;
 }
 .table_title {
@@ -80,26 +87,103 @@
 }
 
 .table {
-    width: 854px !important;
+    width: 666px;
     border-bottom: 1px solid lightgray;
     background-color: #f6f6f6;
-    margin: 66px 0 30px; /*위 좌우 아래 */
+    margin: 66px 0 0px; /*위 좌우 아래 */
 }
 
 .table2 {
-    width: 854px !important;
+    width: 666px;
     border-bottom: 1px solid lightgray;
     background-color: #f6f6f6;
-    margin: 30px 0 30px; /*위 좌우 아래 */
+    margin: 30px 0 0px; /*위 좌우 아래 */
 }
 
 .table_ui {
     font-size: 16px;
     font-weight: 600;
+    width: 640px;
     text-align: center;
     color : #000000;
 }
 th {
     text-align: center;
     padding: 10px;
+}
+
+.box_bottom_ui {
+    position: relative;
+    width: 640px;
+    background-color: #f6f6f6;
+    min-height: 44px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    padding: 12px;
+}
+
+.page_navigation{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    left: 0;
+    padding-left: 20px;
+}
+
+.page_navigation li.off, .page_navigation1 li.off {
+    color: #000;
+    opacity: 0.3;
+    cursor: default! important;
+}
+
+.page_navigation li:first-child, .page_navigation li:last-child, .page_navigation li:nth-child(2), .page_navigation li:nth-last-child(2) {
+    padding: 0px 0px;
+    font-weight: 300;
+}
+
+.page_navigation li {
+    list-style: none;
+    padding-left: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: cubic-bezier(0.4, 0, 1, 1);
+    min-width: 24px;
+    height: 24px;
+    border-radius: 12px;
+}
+.table_content img {
+    width: 100px;
+    height: 60px;
+}
+
+.table_content {
+    width: 666px;
+    height: 70px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.number_content {
+    padding-left: 5px;
+}
+.img_content {
+    padding-left: 10px;
+}
+.time_content {
+    padding-right: 20px;
+}
+
+.result_content {
+    padding-right: 10px;
+}
+
+.count_box {
+    text-align: right;
+    font-size : 30px;
+    font-weight: 700;
+    padding-right: 100px;
+    line-height: 10px;
 }
