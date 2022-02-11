@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/ModelTest.css">
+    <title>model test</title>
+    <style>
+        body {background-color: #e1e4e5}
+        header {background-color: #e1e4e5}
+        .content_wrap {
+            width: 854px !important;
+        }
+    </style>
+    <!-- head 작성 -->
+    <header>
+    <div>
+        <p class="title bold"> AI 모델 관리 (이미지 타입) </p>
+    </div>
+    <div class="time">
+        <div class="current_time bold">현재 시간</div>
+        <span class="time_day">
+            <span class="current_day bold">2022-02-11금 <span class="current_hour bold">11:40:26 </span> </span>
+            <button class="start_btn">테스트 시작</button>
+            <button class="end_btn">테스트 종료</button>
+        </span>
+    </div>
+    </header>
+    <body>
+    <!-- 테이블 작성 -->
+    <div class="image-box">
+        <img src="images/7.png"/>
+    </div>
+    <div class="model_table_page">
+    <div class="box_data">
+        <span class="table_title bolder">SAMPLE MODEL</span> <span class="emphasis bolder">실시간 분석</span> <span class="table_title bolder">중 입니다.</span>
+        <div class="table_ui" style="z-index: 2; width : 40%; float: left;">
+        <table class="table" id="modelList">
+            <thead>
+                <tr>
+                    <th class="number" width="30">No.</th>
+                    <th class="center" width="100">이미지</th>
+                    <th class="center" width="180">시간</th>
+                    <th class="center" width="50">결과</th>
+                </tr>
+            </thead>
+        </table>
+        </div>
+        <div class="table_ui" style="z-index: 2; width: 50%; float: right;">
+            <table class="table2" id="modelList2">
+                <thead>
+                <tr>
+                    <th class="number" width="30">No.</th>
+                    <th class="center" width="100">이미지</th>
+                    <th class="center" width="180">시간</th>
+                    <th class="center" width="50">결과</th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <!-- 테이블 영역 끝 -->
+    </div>
+    </body>
+</html>

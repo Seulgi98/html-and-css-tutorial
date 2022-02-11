@@ -1,0 +1,105 @@
+@charset "euc-kr";
+
+.title{
+    font-size: 32px;
+    position: relative;
+    line-height: 38px;
+    margin: 20px 0 0 20px; /*시계방향 : 위 오른쪽 아래 왼쪽*/
+}
+
+.time {
+    margin: 10px 0 0 854px;
+}
+
+.current_time {
+    font-size: 20px;
+    position: relative;
+    line-height: 10px;
+    margin: 20px 0 20px 20px;
+}
+
+.current_day {
+    font-size: 30px;
+    position: relative;
+    line-height: 10px;
+    margin: 20px 0px 0 20px;
+}
+
+.current_hour {
+    font-size: 70px;
+    position: relative;
+    line-height: 10px;
+    margin: 20px 10px 0 0px;
+}
+
+.time_day{
+    white-space: nowrap;
+}
+
+.start_btn {
+    background-color: #fb7520;
+    padding: 12px 30px 12px 30px;
+    margin: 0 10px;
+    color : #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.end_btn {
+    background-color: #00ee8f;
+    padding: 12px 30px 12px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.image-box {
+    position: absolute;
+    top : 25%;
+    left : 3%;
+}
+
+.model_table_page {
+    background-color: #fff;
+    padding: 30px 0 30px 0;
+    margin: 0 50px 0 0;
+    position: absolute;
+    top: 15%;
+    left : 31%;
+    box-shadow: 0 20px 30px grey ;
+}
+.table_title {
+    font-size: 30px;
+    line-height: 10px;
+    margin: 30px 0 30px; /*위 좌우 아래 */
+}
+.emphasis {
+    font-size: 30px;
+    color: #fb7520;
+    margin: 30px 0 30px; /*위 좌우 아래 */
+}
+
+.table {
+    width: 854px !important;
+    border-bottom: 1px solid lightgray;
+    background-color: #f6f6f6;
+    margin: 66px 0 30px; /*위 좌우 아래 */
+}
+
+.table2 {
+    width: 854px !important;
+    border-bottom: 1px solid lightgray;
+    background-color: #f6f6f6;
+    margin: 30px 0 30px; /*위 좌우 아래 */
+}
+
+.table_ui {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color : #000000;
+}
+th {
+    text-align: center;
+    padding: 10px;
+}
